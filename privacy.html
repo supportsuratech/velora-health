@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>سياسة الخصوصية | ڤيلورا - Velora Health</title>
+
+  <meta
+    name="description"
+    content="سياسة الخصوصية لتطبيق ڤيلورا - Velora Health المطور من قبل SuraTECH."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Tajawal", Tahoma, Arial, sans-serif;
+      background: #f7f9fc;
+      color: #1f2937;
+      line-height: 2;
+      direction: rtl;
+      text-align: right;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    nav {
+      max-width: 950px;
+      margin: auto;
+      padding: 20px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    nav a,
+    main a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    nav a {
+      margin-left: 18px;
+    }
+
+    nav a:hover,
+    main a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 950px;
+      margin: 45px auto;
+      padding: 0 24px;
+    }
+
+    article {
+      background: #ffffff;
+      padding: 45px;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      color: #111827;
+      font-size: 38px;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      color: #111827;
+      margin-top: 36px;
+      font-size: 23px;
+    }
+
+    .date {
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    .important {
+      background: #f3f7ff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 25px 0;
+    }
+
+    .ltr {
+      direction: ltr;
+      unicode-bidi: embed;
+      display: inline-block;
+    }
+
+    footer {
+      max-width: 950px;
+      margin: auto;
+      padding: 10px 24px 45px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .email-link {
+      font-weight: 600;
+      direction: ltr;
+      unicode-bidi: embed;
+      display: inline-block;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .email-link:hover {
+      text-decoration: underline;
+      transform: translateY(-1px);
+    }
+
+    .policy-section {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+      will-change: opacity, transform;
+    }
+
+    .policy-section.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .policy-section h2 {
+      position: relative;
+      padding-right: 18px;
+      transition: color 0.35s ease, transform 0.35s ease;
+    }
+
+    .policy-section h2::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 15%;
+      width: 4px;
+      height: 70%;
+      border-radius: 10px;
+      background: #2563eb;
+      transform: scaleY(0);
+      transform-origin: center;
+      transition: transform 0.45s ease;
+    }
+
+    .policy-section.is-visible h2::before {
+      transform: scaleY(1);
+    }
+
+    .policy-section.is-visible h2 {
+      transform: translateX(-3px);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .policy-section {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+
+      .policy-section h2,
+      .policy-section h2::before {
+        transition: none;
+      }
+    }
+
+    @media (max-width: 650px) {
+      article {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 31px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="brand">ڤيلورا - Velora Health</div>
+
+    <div>
+      <a href="index.html">الرئيسية</a>
+      <a href="privacy.html">سياسة الخصوصية</a>
+      <a href="terms.html">شروط الاستخدام</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<article>
+
+  <h1>سياسة الخصوصية</h1>
+
+  <p class="date">
+    ڤيلورا - Velora Health | SuraTECH<br>
+    تاريخ النشر: 27 أيلول 2026
+  </p>
+
+  <p>
+    تطبيق ڤيلورا (Velora Health) هو نظام لإدارة العيادات
+    والمرضى وسير العمل السريري، تم تطويره من قبل SuraTECH.
+  </p>
+
+  <p>
+    توضح سياسة الخصوصية هذه كيفية التعامل مع المعلومات
+    والبيانات عند استخدام تطبيق ڤيلورا، بما في ذلك البيانات
+    المرتبطة بخدمات Google عندما يختار المستخدم المخوّل
+    ربط حساب Google الخاص به بإحدى الوظائف المدعومة داخل التطبيق.
+  </p>
+
+
+  <section class="policy-section">
+  <h2>1. المعلومات التي يعالجها تطبيق ڤيلورا</h2>
+
+  <p>
+    اعتمادًا على وظائف التطبيق المستخدمة، وإعدادات العيادة،
+    والصلاحيات الممنوحة للمستخدم، قد يقوم تطبيق ڤيلورا بمعالجة
+    المعلومات التي يدخلها المستخدمون المخوّلون إلى النظام.
+  </p>
+
+  <p>
+    قد تشمل هذه المعلومات بيانات تعريف المريض والبيانات الإدارية،
+    ومعلومات الاتصال، والزيارات، والسجلات السريرية، والعلامات
+    الحيوية، وخطط الرعاية التمريضية، والملاحظات السريرية
+    والتمريضية، والمهام، والمرفقات، وغيرها من المعلومات اللازمة
+    لتشغيل الوظائف المعتمدة داخل العيادة.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>2. حسابات المستخدمين والصلاحيات</h2>
+
+  <p>
+    استخدام ڤيلورا مخصص للمستخدمين المخوّلين فقط.
+    وتختلف الوظائف والبيانات التي يستطيع كل مستخدم الوصول إليها
+    حسب دوره داخل العيادة، والصلاحيات الممنوحة له، وحالة حسابه،
+    والعيادة المرتبط بها، وسياسات الأجهزة المعتمدة في النظام.
+  </p>
+
+  <p>
+    لا يعني امتلاك حساب في ڤيلورا أن المستخدم يستطيع الوصول
+    إلى جميع بيانات العيادة، وإنما يخضع الوصول إلى نظام
+    الصلاحيات المعتمد داخل التطبيق.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>3. ربط حساب Google</h2>
+
+  <p>
+    قد تسمح بعض الوظائف الاختيارية في ڤيلورا للمستخدم المخوّل
+    بربط حساب Google الخاص به بالتطبيق باستخدام نظام
+    <span class="ltr">Google OAuth</span>.
+  </p>
+
+  <p>
+    لا يتم طلب صلاحيات Google إلا عندما يختار المستخدم استخدام
+    وظيفة تحتاج إلى إحدى خدمات Google المدعومة.
+  </p>
+
+  <p>
+    ربط حساب Google ليس مطلوبًا لاستخدام جميع وظائف ڤيلورا،
+    وإنما يستخدم فقط للوظائف التي تعتمد على خدمات Google،
+    مثل النسخ الاحتياطي والاستعادة عبر Google Drive.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>4. النسخ الاحتياطي والاستعادة عبر Google Drive</h2>
+
+  <p>
+    يتيح ڤيلورا للمستخدمين المخوّلين، وفق صلاحيات النظام،
+    استخدام Google Drive لإنشاء نسخ احتياطية من البيانات
+    المدعومة واستعادتها عند الحاجة.
+  </p>
+
+  <p>
+    عند تفعيل هذه الوظيفة، قد يطلب ڤيلورا صلاحيات Google
+    اللازمة لإنشاء بيانات النسخ الاحتياطي الخاصة بالتطبيق،
+    أو الوصول إليها، أو إدارتها، أو استعادتها، وذلك ضمن
+    الصلاحيات التي تظهر للمستخدم ويوافق عليها.
+  </p>
+
+  <p>
+    لا يستخدم ڤيلورا صلاحية الوصول إلى Google Drive لأغراض
+    الإعلانات أو التسويق أو إنشاء ملفات تعريف إعلانية عن
+    المستخدمين أو لأي غرض غير مرتبط بالوظائف المعلنة للتطبيق.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>5. كيفية استخدام بيانات مستخدم Google</h2>
+
+  <p>
+    يتم استخدام المعلومات التي يحصل عليها ڤيلورا من
+    Google APIs فقط لتوفير الوظائف المرتبطة بخدمات Google
+    التي قام المستخدم بالموافقة عليها، وتشغيلها وتأمينها
+    والمحافظة عليها.
+  </p>
+
+  <p>
+    لا يقوم ڤيلورا ببيع بيانات مستخدمي Google.
+  </p>
+
+  <p>
+    لا يتم استخدام بيانات مستخدمي Google لأغراض
+    الإعلانات الموجّهة.
+  </p>
+
+  <p>
+    لا يتم نقل بيانات مستخدمي Google إلى منصات إعلانية
+    أو وسطاء بيانات أو جهات خارجية لأغراض الإعلان أو التسويق.
+  </p>
+
+  <div class="important">
+    يلتزم استخدام ڤيلورا ونقله للمعلومات المستلمة من
+    Google APIs بسياسة
+    <span class="ltr">Google API Services User Data Policy</span>
+    بما في ذلك متطلبات
+    <span class="ltr">Limited Use</span>
+    حيثما تكون منطبقة.
+  </div>
+  </section>
+
+  <section class="policy-section">
+  <h2>6. التخزين المحلي ومزامنة البيانات</h2>
+
+  <p>
+    يعتمد ڤيلورا على بنية Local-First، أي أن بيانات التطبيق
+    المدعومة قد تُخزّن محليًا على الأجهزة المخوّلة باستخدام
+    التطبيق.
+  </p>
+
+  <p>
+    وقد تتم مزامنة البيانات المصرح بها مع خدمات النظام
+    الخلفية المهيأة لهذا الغرض عند توفر اتصال بالإنترنت
+    وتفعيل المزامنة.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>7. بيانات النسخ الاحتياطي</h2>
+
+  <p>
+    عند تفعيل النسخ الاحتياطي عبر Google Drive، قد يتم تخزين
+    بيانات النسخة الاحتياطية في حساب Google Drive الذي قام
+    المستخدم المخوّل بربطه بالتطبيق.
+  </p>
+
+  <p>
+    يعتمد المحتوى الموجود داخل النسخة الاحتياطية على الوظائف
+    التي يدعمها نظام النسخ الاحتياطي وإعدادات التطبيق
+    والعيادة.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>8. حماية البيانات وأمنها</h2>
+
+  <p>
+    تطبق SuraTECH إجراءات تقنية وتنظيمية تهدف إلى حماية
+    المعلومات التي يتعامل معها ڤيلورا من الوصول غير المصرح به،
+    أو التعديل، أو الإفصاح، أو الإتلاف.
+  </p>
+
+  <p>
+    وقد تشمل هذه الإجراءات المصادقة، والتحقق من الصلاحيات،
+    والصلاحيات المعتمدة على الأدوار، وضوابط الأجهزة،
+    والاتصالات الآمنة، وآليات التدقيق، وضوابط الحماية الأخرى
+    المناسبة لبنية التطبيق.
+  </p>
+
+  <p>
+    كما يتحمل المستخدم مسؤولية المحافظة على سرية بيانات
+    تسجيل الدخول الخاصة به وعدم مشاركتها مع أشخاص غير مخوّلين.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>9. مشاركة البيانات</h2>
+
+  <p>
+    لا تقوم SuraTECH ببيع المعلومات الشخصية التي تتم
+    معالجتها من خلال ڤيلورا.
+  </p>
+
+  <p>
+    قد تتم معالجة بعض المعلومات من خلال مزودي البنية التحتية
+    أو الخدمات التقنية عندما يكون ذلك ضروريًا لتوفير وظائف
+    التطبيق، أو الحماية، أو المزامنة، أو التخزين،
+    أو النسخ الاحتياطي، وذلك وفق إعدادات الخدمات والضوابط
+    المطبقة عليها.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>10. الاحتفاظ بالبيانات</h2>
+
+  <p>
+    قد يتم الاحتفاظ ببيانات التطبيق طوال المدة اللازمة
+    لاستخدام العيادة لنظام ڤيلورا، أو لتلبية متطلبات التشغيل،
+    والنسخ الاحتياطي، والأمان، والمتطلبات القانونية أو
+    التنظيمية المطبقة، بحسب الحالة.
+  </p>
+
+  <p>
+    قد تبقى ملفات النسخ الاحتياطي الموجودة في Google Drive
+    ضمن حساب Google المرتبط إلى أن يقوم صاحب الحساب المخوّل
+    بحذفها، أو يتم حذفها من خلال إحدى وظائف التطبيق المدعومة.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>11. إلغاء صلاحية وصول ڤيلورا إلى حساب Google</h2>
+
+  <p>
+    يستطيع المستخدم إلغاء صلاحية وصول ڤيلورا إلى حساب Google
+    من خلال إعدادات الأمان أو التطبيقات والخدمات المرتبطة
+    التي توفرها Google.
+  </p>
+
+  <p>
+    يؤدي إلغاء التفويض إلى منع الوصول المستقبلي باستخدام
+    التفويض الذي تم إلغاؤه.
+  </p>
+
+  <p>
+    إلغاء ربط الحساب لا يعني بالضرورة حذف ملفات النسخ
+    الاحتياطي الموجودة مسبقًا داخل Google Drive.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>12. حذف البيانات</h2>
+
+  <p>
+    يستطيع المستخدم المخوّل حذف ملفات النسخ الاحتياطي
+    الموجودة في Google Drive من خلال الوظائف التي يوفرها
+    التطبيق عندما تكون متاحة، أو مباشرةً من خلال حساب
+    Google Drive الخاص به.
+  </p>
+
+  <p>
+    أما البيانات الأخرى الخاصة بالعيادة، فتتم إدارتها
+    وحذفها وفق الصلاحيات والوظائف المتاحة في ڤيلورا
+    وإجراءات إدارة البيانات المعتمدة لدى العيادة.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>13. خصوصية الأطفال</h2>
+
+  <p>
+    ڤيلورا هو نظام مهني مخصص لإدارة أعمال العيادات واستخدامه
+    موجه للمستخدمين المخوّلين من العاملين في العيادات
+    والرعاية الصحية.
+  </p>
+
+  <p>
+    التطبيق ليس خدمة استهلاكية موجهة للأطفال لاستخدامها
+    بأنفسهم.
+  </p>
+
+  <p>
+    ومع ذلك، قد تحتوي سجلات المرضى التي تديرها جهة الرعاية
+    الصحية على بيانات لمرضى من فئات عمرية مختلفة، وتبقى
+    مسؤولية إدخال هذه البيانات ومعالجتها واستخدامها على
+    الجهة الصحية المخوّلة وفق المتطلبات المطبقة عليها.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>14. خدمات الجهات الخارجية</h2>
+
+  <p>
+    قد يعتمد ڤيلورا على خدمات أو بنية تحتية مقدمة من جهات
+    خارجية عند الحاجة لتوفير بعض الوظائف، مثل خدمات
+    المزامنة أو التخزين أو النسخ الاحتياطي.
+  </p>
+
+  <p>
+    وقد يخضع استخدام هذه الخدمات أيضًا للشروط وسياسات
+    الخصوصية الخاصة بمزوديها.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>15. التغييرات على سياسة الخصوصية</h2>
+
+  <p>
+    قد تقوم SuraTECH بتحديث سياسة الخصوصية هذه عند حدوث
+    تغييرات في وظائف ڤيلورا، أو طرق معالجة البيانات،
+    أو متطلبات الأمان، أو عمليات التكامل مع الخدمات الخارجية،
+    أو المتطلبات القانونية والتنظيمية ذات الصلة.
+  </p>
+
+  <p>
+    يوضح تاريخ النشر الموجود في أعلى هذه الصفحة تاريخ
+    النسخة الحالية المنشورة من سياسة الخصوصية.
+  </p>
+  </section>
+
+  <section class="policy-section">
+  <h2>16. التواصل</h2>
+
+  <p>
+    <strong>الدعم الفني:</strong>
+    <a class="email-link ltr" href="mailto:support.suratech@gmail.com" aria-label="إرسال بريد إلكتروني إلى دعم SuraTECH">support.suratech@gmail.com</a>
+  </p>
+
+  <p>
+    <strong>المطور:</strong>
+    <span class="ltr">SuraTECH</span>
+  </p>
+
+  <p>
+    <strong>التطبيق:</strong>
+    ڤيلورا - <span class="ltr">Velora Health</span>
+  </p>
+
+  <p>
+    للاستفسارات المتعلقة بالخصوصية، أو تكامل خدمات Google،
+    أو طريقة التعامل مع المعلومات داخل ڤيلورا، يمكن التواصل
+    مع جهة الدعم الرسمية الخاصة بـ SuraTECH والمرتبطة بالتطبيق.
+  </p>
+  </section>
+
+  <hr>
+
+  <p>
+    <a href="index.html">الصفحة الرئيسية</a>
+    &nbsp; | &nbsp;
+    <a href="terms.html">شروط الاستخدام</a>
+  </p>
+
+</article>
+</main>
+
+<footer>
+  © 2026 SuraTECH. جميع الحقوق محفوظة.<br>
+  ڤيلورا - Velora Health
+</footer>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll(".policy-section");
+
+    if (!("IntersectionObserver" in window)) {
+      sections.forEach((section) => section.classList.add("is-visible"));
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries, observerInstance) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observerInstance.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: "0px 0px -10% 0px",
+        threshold: 0.12
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  });
+</script>
+
+</body>
+</html>
